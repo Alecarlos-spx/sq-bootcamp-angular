@@ -1,0 +1,15 @@
+<mat-accordion multi>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Todas as tarefas
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <app-agenda-task [tasks]="tasksListarTodas" [exibirData]="true"></app-agenda-task>
+
+    <!-- //<p *ngFor="let tarefa of tarefas"> {{ tarefa.title }}</p> -->
+
+  </mat-expansion-panel>
+
+</mat-accordion>
