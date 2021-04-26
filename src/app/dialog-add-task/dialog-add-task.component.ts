@@ -20,12 +20,18 @@ export class DialogAddTaskComponent implements OnInit {
   }
 
   addTask(){
+    // let dataAtual = new Date().setHours(0, 0, 0, 0);
+    // if (this.meLembrarEm ){
+
+    // }
 
     const tarefa = new Task(
       this.titulo,
       this.notas,
       this.meLembrarEm
     );
+
+
 
     this.taskService.createTask(tarefa).subscribe();
 

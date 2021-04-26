@@ -1,27 +1,38 @@
-# MyTasks
+# Trilha Angular Squadra
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
+# Projeto de Implementação de TODO de Agenda
 
-## Development server
+## Tecnologia utilizada 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Angular versão 11.0.6 [Angular CLI](https://github.com/angular/angular-cli)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Escopo
+	Projeto de manipulação de Agenda pessoal de Tarefas
 
-## Build
+## Persistencia
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- LocalStorage Browser
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Utilização do Projeto
+1. Após fazer o clone do projeto, utilizar o comando no pompt de comando na pasta do projeto 
+		- npm install
+2. Para executar o projeto e abrir no browser
+    - `ng serve -o`  
 
-## Running end-to-end tests
+	
+##Lista das URIs
+	1. Principal https://localhost:4200 com redirecionamento para https://localhost:4200/agenda
+	2. Lista das tarefas https://localhost:4200/agenda
+	
+###Lista geral de Rotas
+	1. /agenda - Lista as tarefas do Dia/Amanhã/Próximos dias 
+	2. /tasks - Lista todas as tarefas em ordem de data
+	
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+#Informações para Build
+  - Utilizar o comando `ng build`, será criada uma pasta `dist/`. Para criação de versão de produção utilize a flag `--prod`.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
